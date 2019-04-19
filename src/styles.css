@@ -1,0 +1,30 @@
+.list{
+   display: flex;
+   margin-left: 20px;
+   margin-right:20px;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+tbody>tr:nth-child(odd) {
+  background-color: #DCDCDC;
+}
+
+th,td {
+  border:1px solid grey;
+  padding:5px;
+}
+
+
+.detail{
+  margin-left: 50px;
+}
+
+li:hover{
+  border: 1px solid black;
+  cursor: pointer;
+  display: inline-block;
+}
